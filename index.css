@@ -52,4 +52,19 @@ footer {
     text-align: center;
     padding: 20px;
     color: #666;
+
+}
+
+footer img {
+    width: 32px;
+    height: 32px;
+    margin: 0 12px;
+    vertical-align: middle;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    cursor: pointer;
+}
+
+footer img:hover {
+    transform: scale(1.15);
+    opacity: 0.85;
 }
